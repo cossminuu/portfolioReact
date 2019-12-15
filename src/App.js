@@ -17,9 +17,8 @@ class App extends Component {
     modalOpen: false
   };
 
-  //Modal///////////////
+  //Modal//
   /*openmodal*/ modalToggleClick = () => {
-    document.body.classList.add("no-scroll"); /*add no scroll to body*/
     this.setState(prevState => {
       return {
         modalOpen: !prevState.modalToggleClick
@@ -28,12 +27,11 @@ class App extends Component {
   };
 
   /*closemodal*/ modalCloseClick = () => {
-    document.body.classList.remove("no-scroll"); /*remove no scroll from body */
     this.setState({ modalOpen: false });
   };
-  //Modal/////////////
+  //Modal//
 
-  //NAV SIDEBAR ////
+  //NAV SIDEBAR//
   drawerToggleClickHandler = () => {
     this.setState(prevState => {
       return { sideDrawerOpen: !prevState.sideDrawerOpen };
@@ -41,24 +39,20 @@ class App extends Component {
   };
 
   backdropClickHandler = () => {
-    document.body.classList.remove("no-scroll"); /*remove no scroll from body */
     this.setState({ sideDrawerOpen: false });
   };
-  //NAV SIDEBAR ////
+  //NAV SIDEBAR//
 
   render() {
     let backdrop;
     if (this.state.sideDrawerOpen) {
-      document.body.classList.add("no-scroll"); /*add no scroll to body*/
       backdrop = <Backdrop click={this.backdropClickHandler} />;
     }
 
     let modal;
     if (this.state.modalOpen) {
       backdrop = <Backdrop click={this.modalCloseClick} />; //click=close modal
-      modal = (
-        <Modal click={this.modalToggleClick} close={this.modalCloseClick} />
-      );
+      modal = <Modal close={this.modalCloseClick} />;
     }
 
     return (

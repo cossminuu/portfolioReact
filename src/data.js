@@ -31,16 +31,14 @@ export default {
     contacts: [{
             "class": "fa fa-envelope mr-2 mb-3",
             "text": "cossminuu@gmail.com",
-            "href": "mailto"
         },
         {
             "class": "fa fa-phone mr-2 mb-3",
             "text": "+39 348 700 8668",
-            "href": "callto"
         },
         {
             "class": "fa fa-map-marker mr-2 mb-2",
-            "text": "Lorem ipsum dolor sit amet."
+            "text": "Milan, Italy"
         },
     ],
     socials: [

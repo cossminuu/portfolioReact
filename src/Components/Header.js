@@ -8,7 +8,7 @@ function Header(props) {
     return (
       <li key={contact.text}>
         <i className={contact.class}> </i>
-        <a href={contact.href}> {contact.text} </a>
+        <a> {contact.text} </a>
       </li>
     );
   });
