@@ -56,7 +56,7 @@ export default {
 
 
     ///////////////////////////// ABOUT SECTION DETAILS /////////////////////////////
-    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus laudantium earum pariatur! Reprehenderit molestias in non minima consectetur? Ut, quam.Necessitatibus laudantium earum pariatur! Reprehenderit molestias in non minima consectetur? Ut, quam.",
+    description: "Hi, my name is Cosmin. I was born in Romania but i moved in Italy 3 years ago. I have 25 years old and i'm studying web & apps development at Mohole School in Milan 2nd year. I'm very friendly , highly motivated, honest, respectful, sociable and love to learn new things. Ah, i love videogames and animals.",
     skills: ["html",
         "css",
         "php",
