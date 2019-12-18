@@ -15,15 +15,9 @@ const modal = props => {
           <div className="container-fluid pt-5 p-5">
             <div className="row">
               <div className="col-md-5 text-white">
-                <h1 className="pb-3">Project React</h1>
+                <h1 className="pb-3">{props.project.projectName}</h1>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.Quidem
-                  quasi optio ea officia doloribus sit at quae
-                  consequatur.Consectetur id autem necessitatibus ut similique
-                  repellendus repudiandae delectus quaerat deserunt!Sequi eos
-                  perspiciatis recusandae obcaecati tempore iusto nostrum odit
-                  quos quaerat!Odit consequuntur ea magni delectus velit
-                  molestias.Harum, doloremque quasi.Lorem ipsum dolor sit amet
+                  {props.project.description}
                 </p>
                 <div className="about-tag pt-2">
                   <ul>

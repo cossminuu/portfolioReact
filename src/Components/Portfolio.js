@@ -10,10 +10,10 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 // import portfolio6 from "../img/project/portfolio6.jpg";
 
 function Portfolio(props) {
-  const cards = data.portfolio.map(card => {
+  const cards = data.portfolio.map((card, i) => {
     return (
       <Zoom down>
-        <div onClick={props.click} className="hovereffect">
+        <div onClick={() => props.click(i)} className="hovereffect">
           <img className="img-fluid" src={card.image} alt="" />
           <div className="overlay2">
             <h2>{card.projectName}</h2>
