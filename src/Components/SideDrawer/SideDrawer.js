@@ -10,6 +10,9 @@ const sideDrawer = props => {
   }
   return (
     <nav className={drawerClasses}>
+      <div className="closeMenu">
+        <p onClick={props.click}>x</p>
+      </div>
       <ul>
         {data.toolbar.map(toolbars => {
           return (

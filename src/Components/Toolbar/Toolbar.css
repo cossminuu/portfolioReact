@@ -1,15 +1,14 @@
 .toolbar {
     width: 100%;
     height: auto;
-    background-color: rgba(0, 0, 0, 0.8);
-
+    padding-top: 30px;
 }
 
 .toolbar__navigation {
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+
 }
 
 .toolbar__navigation__items ul {
@@ -47,7 +46,7 @@
 @media(max-width:1000px) {
     .toolbar__navigation__items li {
         font-size: 18px;
-        padding: 20px;
+        padding: 0px;
     }
 }
 
@@ -55,7 +54,7 @@
 @media(max-width: 780px) {
     .toolbar {
         height: 60px;
-        padding-top: 0 !important;
+
     }
 
     .toolbar__navigation__items {
@@ -67,11 +66,11 @@
     }
 }
 
-@media(min-width: 781px) {
+/* @media(min-width: 781px) {
     .toolbar__toggle__button {
         display: none;
     }
-}
+} */
 
 .active {
     color: #f1636c !important;

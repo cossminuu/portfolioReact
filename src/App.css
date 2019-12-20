@@ -664,11 +664,11 @@ body::-webkit-scrollbar-thumb {
 
 /* GRID CSS HEADER.JS */
 .grid-container-header {
-  height: auto;
+  height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  padding: 270px 50px 150px 50px;
+  padding: 200px 50px 150px 50px;
 }
 
 .item1 {
