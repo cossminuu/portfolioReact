@@ -22,6 +22,7 @@ class App extends Component {
   //Modal//
   /*openmodal*/ modalToggleClick = projectId => {
     this.setState(prevState => {
+      document.body.classList.add("no-scroll");
       return {
         modalOpen: !prevState.modalToggleClick,
         projectId
@@ -30,18 +31,21 @@ class App extends Component {
   };
 
   /*closemodal*/ modalCloseClick = () => {
+    document.body.classList.remove("no-scroll");
     this.setState({ modalOpen: false });
   };
   //Modal//
 
   //NAV SIDEBAR//
   drawerToggleClickHandler = () => {
+    document.body.classList.add("no-scroll");
     this.setState(prevState => {
       return { sideDrawerOpen: !prevState.sideDrawerOpen };
     });
   };
 
   backdropClickHandler = () => {
+    document.body.classList.remove("no-scroll");
     this.setState({ sideDrawerOpen: false });
   };
   //NAV SIDEBAR//

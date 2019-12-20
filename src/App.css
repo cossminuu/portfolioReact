@@ -11,10 +11,7 @@
   overflow-y: hidden !important;
 }
 
-html,
-body {
-  overflow-x: hidden;
-}
+
 
 body {
   height: 100% !important;
@@ -178,7 +175,7 @@ a {
 
 
 .image-bg {
-  background-image: url(./img/Risorsa8.png);
+  background-image: url(./img/header.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -634,7 +631,7 @@ SEPARATOR DIVS STYLE
   left: calc(50% - 9px);
   width: 18px;
   height: 18px;
-  background-color: #0bceaf;
+  background-color: #f1636c;
   border: 1px solid rgb(48, 49, 51);
   border-radius: 50%;
   box-shadow: inset 0 0 0 2px white, 0 0 0 4px white;
@@ -683,7 +680,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .item2 img {
-  max-width: 450px;
+  max-width: 550px;
 
 }
 
