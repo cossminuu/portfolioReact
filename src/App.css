@@ -656,7 +656,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: rgb(11, 206, 175);
+  background-color: #03a7d3;
 }
 
 /* ======SCROLL BAR style END
