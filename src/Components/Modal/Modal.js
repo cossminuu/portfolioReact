@@ -5,7 +5,7 @@ import Zoom from "react-reveal/Zoom";
 const modal = props => {
   return (
     <div className="container-modal">
-      <Zoom down>
+      <Zoom>
         <section className="Modal">
           <div className="closeModal">
             <div onClick={props.close} className="closeIt">
@@ -16,9 +16,7 @@ const modal = props => {
             <div className="row">
               <div className="col-md-5 text-white">
                 <h1 className="pb-3">{props.project.projectName}</h1>
-                <p>
-                  {props.project.description}
-                </p>
+                <p>{props.project.description}</p>
                 <div className="about-tag pt-2">
                   <ul>
                     <li>

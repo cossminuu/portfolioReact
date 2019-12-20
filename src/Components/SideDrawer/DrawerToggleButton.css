@@ -8,7 +8,7 @@
   border: none;
   margin-left: 20px;
   cursor: pointer;
-  padding: 0;
+  padding-top: 0;
   box-sizing: border-box;
 }
 
@@ -18,6 +18,6 @@
 
 .toggle__button__line {
   width: 28px;
-  height: 2.4px;
-  background: white;
+  height: 3.3px;
+  background: linear-gradient(120deg, #f1636c 0%, #b6256e 100%);
 }

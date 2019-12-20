@@ -72,8 +72,6 @@ body {
     margin-top: 40px;
   }
 
-
-
   .header-info h2 {
     font-size: 35px !important;
   }
@@ -131,6 +129,12 @@ a {
   color: white !important;
 }
 
+.header-info ul li .fa {
+  transition: all 0.4s ease-in;
+}
+
+
+
 li {
   list-style-type: none;
 }
@@ -140,7 +144,7 @@ a {
 }
 
 .header-info .btn {
-  background-color: #0bceaf !important;
+  background-image: linear-gradient(120deg, #f1636c 60%, #b6256e 100%);
   font-size: 14px;
   color: white;
   line-height: 24px;
@@ -153,6 +157,12 @@ a {
   border-bottom-left-radius: 0px;
 }
 
+@media(max-width: 780px) {
+  .header-info .btn {
+    display: none;
+  }
+}
+
 .social-icons .fa {
   box-sizing: border-box;
   font-size: 25px;
@@ -161,22 +171,26 @@ a {
   transition: all 0.4s ease-in;
 }
 
-.social-icons .fa:hover {
-  color: #57f2cc;
+.fa:hover {
+  color: #f1636c;
   text-shadow: 3px 3px 5px rgb(0, 0, 0);
 }
 
+
 .image-bg {
-  background-image: linear-gradient(to right,
-      #473b7b 0%,
-      #3584a7 51%,
-      #30d2be 100%);
+  background-image: url(./img/Risorsa8.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #home,
 .nav {
   text-shadow: 1px 1px 2px black;
+  width: 100%;
+
 }
+
+
 
 .overlay {
   height: 100%;
@@ -214,14 +228,16 @@ ul li span {
 }
 
 .about-tag ul li span {
-  border: 1px solid #0bceaf;
+  border: 1px solid #f1636c;
   padding: 4px 10px;
   border-radius: 4px;
 }
 
+
+
 .about .btn,
 .modal .btn {
-  background-color: #0bceaf !important;
+  background-image: linear-gradient(120deg, #f1636c 60%, #b6256e 100%);
   color: #fff;
   padding: 8px 25px;
   font-weight: bold;
@@ -266,6 +282,7 @@ ABOUT ME STYLE END
 
 .name p {
   padding-left: 10px;
+  font-weight: bold;
 }
 
 .bar {
@@ -275,6 +292,7 @@ ABOUT ME STYLE END
   color: white;
   padding: 0 0 0 10px;
   position: relative;
+  font-weight: bold;
 }
 
 .bar::before {
@@ -290,7 +308,7 @@ ABOUT ME STYLE END
 
 .bar::after {
   content: "";
-  background: rgb(11, 206, 175);
+  background-image: linear-gradient(120deg, #f1636c 60%, #b6256e 200%);
   height: 23px;
   transition: 2s;
   display: block;
@@ -300,6 +318,7 @@ ABOUT ME STYLE END
   top: 0;
   left: 0;
   z-index: -1;
+  border-radius: 0 5px 5px 0;
 }
 
 .bar1::after {
@@ -361,7 +380,6 @@ p {
   line-height: 40px;
   font-weight: bold;
   margin-bottom: 60px;
-
 }
 
 .education .education-item {
@@ -372,18 +390,17 @@ p {
   background-color: #202026;
   box-shadow: -1rem 0 3rem #000;
   border-radius: 7px;
-
 }
 
 .education-item h4 a {
   font-style: italic;
   margin-left: 4px;
-  color: #0bceaf !important;
+  color: #f1636c !important;
 }
 
 .education-item .year {
   margin: 10px 0;
-  color: #0bceaf;
+  color: #f1636c;
 }
 
 .work h3,
@@ -417,12 +434,12 @@ span {
 .work-item h4 a {
   font-style: italic;
   margin-left: 4px;
-  color: #0bceaf !important;
+  color: #f1636c !important;
 }
 
 .work-item .year {
   margin: 10px 0;
-  color: #0bceaf;
+  color: #f1636c;
 }
 
 .work-responsability {
@@ -492,12 +509,13 @@ PROJECTS STYLE
   text-transform: uppercase;
   color: #fff;
   position: relative;
-  font-size: 25px;
+  font-size: 30px;
   background-color: transparent;
   padding: 15% 0 5px 0;
   text-align: left;
   text-shadow: 2px 2px 2px black;
 }
+
 
 @media (max-width: 1100px) {
   .hovereffect h2 {
@@ -566,9 +584,7 @@ TEXT HIGLIGHT HALF HEIGHT FOR BLACK TITTLE
 ============== */
 .highlightBlack {
   color: black;
-  background: linear-gradient(180deg,
-      rgba(255, 255, 255, 0) 55%,
-      #0bceaf 90%) !important;
+
 }
 
 /* ==============
@@ -580,9 +596,7 @@ TEXT HIGLIGHT HALF HEIGHT FOR WHITE TITTLE
 ============== */
 .highlightWhite {
   color: white !important;
-  background: linear-gradient(180deg,
-      rgba(255, 255, 255, 0) 55%,
-      #0bceaf 90%) !important;
+
 }
 
 /* ==============
@@ -654,7 +668,7 @@ body::-webkit-scrollbar-thumb {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  padding: 80px 50px 10px 50px;
+  padding: 270px 50px 150px 50px;
 }
 
 .item1 {
@@ -669,14 +683,15 @@ body::-webkit-scrollbar-thumb {
 }
 
 .item2 img {
-  max-width: 400px;
+  max-width: 450px;
+
 }
 
-@media (max-width: 700px) {
+@media (max-width: 780px) {
   .grid-container-header {
     grid-template-columns: auto;
     height: auto;
-    padding: 0;
+    padding: 120px 5px 10px 5px;
   }
 
   .item1 {
@@ -701,6 +716,8 @@ body::-webkit-scrollbar-thumb {
 .grid-container-about {
   padding: 80px;
   display: grid;
+  justify-content: center;
+  align-items: center;
   grid-template-columns: 50% 50%;
   grid-template-areas:
     "illustration about"
@@ -714,6 +731,7 @@ body::-webkit-scrollbar-thumb {
 
 .item-about-2 {
   grid-area: about;
+
 }
 
 .item-about-3 {
@@ -730,7 +748,7 @@ body::-webkit-scrollbar-thumb {
   grid-area: title;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 780px) {
   .grid-container-about {
     grid-template-areas:
       "illustration illustration"
@@ -762,7 +780,6 @@ body::-webkit-scrollbar-thumb {
   grid-template-areas: "education work";
   grid-column-gap: 100px;
   padding: 80px 120px;
-
 }
 
 .cards-education {
@@ -770,8 +787,6 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   flex-direction: column;
   align-items: center;
-
-
 }
 
 .cards-work {

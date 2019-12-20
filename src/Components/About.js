@@ -1,6 +1,6 @@
 import React from "react";
 import data from "../data";
-import illustration from "../img/undraw_web_developer_p3e51.png";
+import illustration from "../img/about2.png";
 import htmllogo from "../img/logohtml.png";
 import wordpresslogo from "../img/wordpresslogo.png";
 import phplogo from "../img/phplogo.png";
@@ -23,13 +23,13 @@ function About() {
     <React.Fragment>
       <section id="about" className="separator-bottom grid-container-about">
         <div className="item-about-1">
-          <Fade right>
+          <Fade up>
             <img className="img-fluid" src={illustration} alt="" />
           </Fade>
         </div>
         <div className="item-about-2">
           <div className="about">
-            <Fade left>
+            <Fade up>
               <h2>
                 <span className="highlightBlack">About me</span>
               </h2>
@@ -48,7 +48,7 @@ function About() {
         </h2>
 
         <div className="item-about-3">
-          <Fade left>
+          <Fade up>
             <div className="graph-cont">
               <div className="name pb-2">
                 <img src={htmllogo} alt="" />
@@ -77,7 +77,7 @@ function About() {
           </Fade>
         </div>
         <div className="item-about-4">
-          <Fade right>
+          <Fade up>
             <div className="graph-cont">
               <div className="name pb-2">
                 <img src={illustratorlogo} alt="" />

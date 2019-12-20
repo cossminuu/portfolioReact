@@ -9,18 +9,18 @@ import About from "./Components/About";
 import Experiences from "./Components/Experiences";
 import Portfolio from "./Components/Portfolio";
 import Modal from "./Components/Modal/Modal";
-import data from './data';
+import data from "./data";
 import "./App.css";
 
 class App extends Component {
   state = {
     sideDrawerOpen: false,
     modalOpen: false,
-    projectId: 0,
+    projectId: 0
   };
 
   //Modal//
-  /*openmodal*/ modalToggleClick = (projectId) => {
+  /*openmodal*/ modalToggleClick = projectId => {
     this.setState(prevState => {
       return {
         modalOpen: !prevState.modalToggleClick,
@@ -55,7 +55,12 @@ class App extends Component {
     let modal;
     if (this.state.modalOpen) {
       backdrop = <Backdrop click={this.modalCloseClick} />; //click=close modal
-      modal = <Modal project={data.portfolio[this.state.projectId]} close={this.modalCloseClick} />;
+      modal = (
+        <Modal
+          project={data.portfolio[this.state.projectId]}
+          close={this.modalCloseClick}
+        />
+      );
     }
 
     return (

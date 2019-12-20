@@ -1,8 +1,7 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
-import avatar from "../img/avatar2.png";
+import avatar from "../img/Risorsa3.png";
 import data from "../data";
-
 function Header(props) {
   const contact = data.contacts.map(contact => {
     return (
@@ -23,8 +22,8 @@ function Header(props) {
 
   return (
     <React.Fragment>
-      <section id="home" className="image-bg ">
-        <div className="grid-container-header">
+      <section id="home" className=" image-bg">
+        <div className="grid-container-header overlay-header">
           <Fade left>
             <div className="item1">
               <div className="header-info">
@@ -43,7 +42,6 @@ function Header(props) {
           </Fade>
         </div>
       </section>
-      <div className="divider div-transparent div-dot"></div>
     </React.Fragment>
   );
 }
