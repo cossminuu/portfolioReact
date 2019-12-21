@@ -79,21 +79,22 @@ class App extends Component {
       height: "100vh",
       width: "100%",
       justifyContent: "center",
-      alignItems: "center"
+      alignItems: "center",
+      backgroundColor: "rgb(26, 25, 25)"
     };
     return (
-      <React.Fragment>
+      <>
         {!this.state.done ? (
           <Loader
             style={styles}
             type="Triangle"
-            color="#00BFFF"
-            height={100}
-            width={100}
+            color="#f1636c"
+            height={200}
+            width={200}
             timeout={3000}
           />
         ) : (
-          <React.Fragment>
+          <>
             {backdrop}
 
             {modal}
@@ -112,9 +113,9 @@ class App extends Component {
             <Experiences />
 
             <Portfolio click={this.modalToggleClick} />
-          </React.Fragment>
+          </>
         )}
-      </React.Fragment>
+      </>
     );
   }
 }

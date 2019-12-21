@@ -24,7 +24,7 @@ function Header(props) {
     <React.Fragment>
       <section id="home" className=" image-bg">
         <div className="grid-container-header overlay-header">
-          <Fade left>
+          <Fade up>
             <div className="item1">
               <div className="header-info">
                 <div className="btn"> Hello i 'm</div>
@@ -35,7 +35,7 @@ function Header(props) {
               </div>
             </div>
           </Fade>
-          <Fade right>
+          <Fade up>
             <div className="item2">
               <img className="img-fluid" src={avatar} alt="" />
             </div>
