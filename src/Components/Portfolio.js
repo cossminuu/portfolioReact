@@ -6,14 +6,10 @@ function Portfolio(props) {
   const cards = data.portfolio.map((card, i) => {
     return (
       <Zoom>
-        <div onClick={() => props.click(i)} className="hovereffect">
-          <img className="img-fluid" src={card.image} alt="" />
-          <div className="overlay2">
-            <h2>{card.projectName}</h2>
-            <p>
-              <a href="#ex2">Click to see more</a>
-            </p>
-          </div>
+        <div onClick={() => props.click(i)} className="card">
+          <h2>{card.projectName}</h2>
+          <h1 className="text">Read More</h1>
+          <img src={card.image} alt="Sample photo" />
         </div>
       </Zoom>
     );
@@ -24,43 +20,7 @@ function Portfolio(props) {
         <h2 className="text-center title-portfolio">
           <span className="highlightBlack">Projects</span>
         </h2>
-        <main class="grid-portfolio">
-          <div className="card">
-            <h2>Hello World</h2>
-            <h1 className="text">Read More</h1>
-            <img src="https://picsum.photos/1200" alt="Sample photo" />
-          </div>
-
-          <div className="card">
-            <h2>Hello World</h2>
-            <h1 className="text">Read More</h1>
-            <img src="https://picsum.photos/800" alt="Sample photo" />
-          </div>
-
-          <div className="card">
-            <h2>Hello World</h2>
-            <h1 className="text">Read More</h1>
-            <img src="https://picsum.photos/1200" alt="Sample photo" />
-          </div>
-
-          <div className="card">
-            <h2>Hello World</h2>
-            <h1 className="text">Read More</h1>
-            <img src="https://picsum.photos/800" alt="Sample photo" />
-          </div>
-
-          <div className="card">
-            <h2>Hello World</h2>
-            <h1 className="text">Read More</h1>
-            <img src="https://picsum.photos/600" alt="Sample photo" />
-          </div>
-
-          <div className="card">
-            <h2>Hello World</h2>
-            <h1 className="text">Read More</h1>
-            <img src="https://picsum.photos/1200" alt="Sample photo" />
-          </div>
-        </main>
+        <main class="grid-portfolio">{cards}</main>
       </section>
     </React.Fragment>
   );

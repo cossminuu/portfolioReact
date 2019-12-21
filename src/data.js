@@ -1,6 +1,5 @@
 export default {
 
-    "image": "https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/basic-types-of-html-tags/cover.jpg",
     /////////////////////////////  NAVBAR /////////////////////////////
     toolbar: [{
             link: "Home",
@@ -127,30 +126,35 @@ export default {
 
     ///////////////////////////// PORTFOLIO SECTION DETAILS ////////////////////////////
     portfolio: [{
+            projectName: "Tourist finder",
+            description: 'aaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaa',
+            image: "/img/project/adottaunturista.jpg",
+            usedSkills: ["php", "mysql", "html", "css"]
+
+        },
+        {
+            projectName: "WordPress theme",
+            description: 'aaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaa',
+            image: "/img/project/fuorisalone.jpg",
+            usedSkills: ["php", "mysql", "wordpress", "html", "css"]
+
+        },
+        {
+            projectName: "ToDo-List React",
+            description: 'aaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaa',
+            image: "/img/project/todolist.jpg",
+            usedSkills: ["react", "node", "html", "css", "gridCss", "netlify"]
+
+        },
+        {
             projectName: "Portfolio React",
-            image: "/img/project/reactportfolio.jpg",
-            description: 'aaaaaaa'
+            description: 'aaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaa',
+            image: "/img/project/portfolioreact.jpg",
+            usedSkills: ["react", "node", "html", "css", "gridCss", "netlify"]
+
+
         },
-        {
-            projectName: "Project two",
-            image: "https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80"
-        },
-        {
-            projectName: "Project three",
-            image: "https://images.unsplash.com/photo-1541018939203-36eeab6d5721?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
-        },
-        {
-            projectName: "Project four",
-            image: "https://images.unsplash.com/photo-1492551557933-34265f7af79e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
-        },
-        {
-            projectName: "Project five",
-            image: "https://images.unsplash.com/photo-1538333702852-c1b7a2a93001?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80"
-        },
-        {
-            projectName: "Project six",
-            image: "https://images.unsplash.com/photo-1549920153-5a53379aefd9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1191&q=80"
-        }
+
     ],
     ///////////////////////////// PORTFOLIO SECTION DETAILS ////////////////////////////
 
