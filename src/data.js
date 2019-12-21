@@ -127,8 +127,8 @@ export default {
 
     ///////////////////////////// PORTFOLIO SECTION DETAILS ////////////////////////////
     portfolio: [{
-            projectName: "Project one",
-            image: "/img/avatar.png",
+            projectName: "Portfolio React",
+            image: "/img/project/reactportfolio.jpg",
             description: 'aaaaaaa'
         },
         {

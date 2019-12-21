@@ -10,7 +10,6 @@ function Portfolio(props) {
           <img className="img-fluid" src={card.image} alt="" />
           <div className="overlay2">
             <h2>{card.projectName}</h2>
-
             <p>
               <a href="#ex2">Click to see more</a>
             </p>

@@ -11,8 +11,6 @@
   overflow-y: hidden !important;
 }
 
-
-
 body {
   height: 100% !important;
 }
@@ -130,8 +128,6 @@ a {
   transition: all 0.4s ease-in;
 }
 
-
-
 li {
   list-style-type: none;
 }
@@ -154,7 +150,7 @@ a {
   border-bottom-left-radius: 0px;
 }
 
-@media(max-width: 780px) {
+@media (max-width: 780px) {
   .header-info .btn {
     display: none;
   }
@@ -173,7 +169,6 @@ a {
   text-shadow: 3px 3px 5px rgb(0, 0, 0);
 }
 
-
 .image-bg {
   background-image: url(./img/header.png);
   background-size: cover;
@@ -184,10 +179,7 @@ a {
 .nav {
   text-shadow: 1px 1px 2px black;
   width: 100%;
-
 }
-
-
 
 .overlay {
   height: 100%;
@@ -230,8 +222,6 @@ ul li span {
   border-radius: 4px;
 }
 
-
-
 .about .btn,
 .modal .btn {
   background-image: linear-gradient(120deg, #f1636c 60%, #b6256e 100%);
@@ -243,10 +233,6 @@ ul li span {
 
 .about .btn .fa {
   margin-left: 10px;
-}
-
-body.modal {
-  overflow-y: hidden;
 }
 
 /* ===============
@@ -489,15 +475,12 @@ PROJECTS STYLE
 }
 
 .hovereffect img {
-  display: block;
   position: relative;
   max-width: none;
   height: 100%;
-  width: calc(100% + 60px);
+  width: 100%;
   -webkit-transition: opacity 0.35s, -webkit-transform 1s;
   transition: opacity 0.35s, transform 1s;
-  -webkit-transform: translate3d(-40px, 0, 0);
-  transform: translate3d(-40px, 0, 0);
   -webkit-filter: blur(1px);
   filter: blur(1px);
 }
@@ -512,7 +495,6 @@ PROJECTS STYLE
   text-align: left;
   text-shadow: 2px 2px 2px black;
 }
-
 
 @media (max-width: 1100px) {
   .hovereffect h2 {
@@ -581,7 +563,6 @@ TEXT HIGLIGHT HALF HEIGHT FOR BLACK TITTLE
 ============== */
 .highlightBlack {
   color: black;
-
 }
 
 /* ==============
@@ -593,7 +574,6 @@ TEXT HIGLIGHT HALF HEIGHT FOR WHITE TITTLE
 ============== */
 .highlightWhite {
   color: white !important;
-
 }
 
 /* ==============
@@ -617,10 +597,12 @@ SEPARATOR DIVS STYLE
   right: 5%;
   width: 90%;
   height: 1px;
-  background-image: linear-gradient(to right,
-      transparent,
-      rgb(48, 49, 51),
-      transparent);
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    rgb(48, 49, 51),
+    transparent
+  );
 }
 
 .div-dot:after {
@@ -681,7 +663,6 @@ body::-webkit-scrollbar-thumb {
 
 .item2 img {
   max-width: 550px;
-
 }
 
 @media (max-width: 780px) {
@@ -728,7 +709,6 @@ body::-webkit-scrollbar-thumb {
 
 .item-about-2 {
   grid-area: about;
-
 }
 
 .item-about-3 {

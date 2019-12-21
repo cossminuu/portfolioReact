@@ -10,15 +10,23 @@ import Experiences from "./Components/Experiences";
 import Portfolio from "./Components/Portfolio";
 import Modal from "./Components/Modal/Modal";
 import data from "./data";
+import Loader from "react-loader-spinner";
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import "./App.css";
 
 class App extends Component {
   state = {
     sideDrawerOpen: false,
     modalOpen: false,
-    projectId: 0
+    projectId: 0,
+    done: false
   };
 
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({ done: true });
+    }, 3000);
+  }
   //Modal//
   /*openmodal*/ modalToggleClick = projectId => {
     this.setState(prevState => {
@@ -66,25 +74,46 @@ class App extends Component {
         />
       );
     }
-
+    let styles = {
+      display: "flex",
+      height: "100vh",
+      width: "100%",
+      justifyContent: "center",
+      alignItems: "center"
+    };
     return (
       <React.Fragment>
-        {backdrop}
-        {modal}
-        <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
+        {!this.state.done ? (
+          <Loader
+            style={styles}
+            type="Triangle"
+            color="#00BFFF"
+            height={100}
+            width={100}
+            timeout={3000}
+          />
+        ) : (
+          <React.Fragment>
+            {backdrop}
 
-        <SideDrawer
-          show={this.state.sideDrawerOpen}
-          click={this.backdropClickHandler}
-        />
+            {modal}
 
-        <Header name="Cosmin Dumitriu" job="Web Developer" />
+            <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
 
-        <About />
+            <SideDrawer
+              show={this.state.sideDrawerOpen}
+              click={this.backdropClickHandler}
+            />
 
-        <Experiences />
+            <Header name="Cosmin Dumitriu" job="Web Developer" />
 
-        <Portfolio click={this.modalToggleClick} />
+            <About />
+
+            <Experiences />
+
+            <Portfolio click={this.modalToggleClick} />
+          </React.Fragment>
+        )}
       </React.Fragment>
     );
   }
