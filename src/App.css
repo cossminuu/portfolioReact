@@ -197,9 +197,11 @@ ABOUT ME STYLE
 #about p,
 ul li span {
   color: black !important;
+  font-weight: bold;
 }
 
 .about h2 {
+  font-size: 70px;
   margin-bottom: 20px;
   margin-top: 20px;
 }
@@ -359,7 +361,7 @@ p {
 }
 
 .education h3 {
-  font-size: 30px;
+  font-size: 50px;
   line-height: 40px;
   font-weight: bold;
   margin-bottom: 60px;
@@ -398,7 +400,7 @@ span {
 }
 
 .work h3 {
-  font-size: 30px;
+  font-size: 50px;
   line-height: 40px;
   font-weight: bold;
   margin-bottom: 60px;
@@ -441,128 +443,16 @@ span {
 EDUCATION AND WORK EXPERIENCES STYLE END
 ================== */
 
-/* =================
-PROJECTS STYLE 
-================= */
-.hovereffect {
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  cursor: pointer;
-  border-radius: 12px;
-  background: -webkit-linear-gradient(45deg, #0bceae8c 0%, #05a9e031 100%);
-  background: linear-gradient(45deg, #0bceae52 0%, #05a9e0a1 100%);
-}
-
-.hovereffect .overlay2 {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  overflow: hidden;
-  border-radius: 12px;
-  top: 0;
-  left: 0;
-  padding: 3em;
-  text-align: left;
-}
-
-@media screen and (max-width: 700px) {
-  .hovereffect img {
-    -webkit-filter: blur(0) !important;
-    filter: blur(0) !important;
-  }
-}
-
-.hovereffect img {
-  position: relative;
-  max-width: none;
-  height: 100%;
-  width: 100%;
-  -webkit-transition: opacity 0.35s, -webkit-transform 1s;
-  transition: opacity 0.35s, transform 1s;
-  -webkit-filter: blur(1px);
-  filter: blur(1px);
-}
-
-.hovereffect h2 {
-  text-transform: uppercase;
-  color: #fff;
-  position: relative;
-  font-size: 30px;
-  background-color: transparent;
-  padding: 15% 0 5px 0;
-  text-align: left;
-  text-shadow: 2px 2px 2px black;
-}
-
-@media (max-width: 1100px) {
-  .hovereffect h2 {
-    font-size: 18px;
-  }
-}
-
-.hovereffect .overlay2:before {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  bottom: 20px;
-  left: 20px;
-  border: 1px solid #fff;
-  content: "";
-  opacity: 0;
-  filter: alpha(opacity=0);
-  -webkit-transition: opacity 0.35s, -webkit-transform 1s;
-  transition: opacity 0.35s, transform 1s;
-  -webkit-transform: translate3d(-20px, 0, 0);
-  transform: translate3d(-20px, 0, 0);
-}
-
-.hovereffect a,
-.hovereffect p {
-  color: #fff;
-  font-size: 17px;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  -webkit-transition: opacity 0.35s, -webkit-transform 1s;
-  transition: opacity 0.35s, transform 1s;
-  -webkit-transform: translate3d(-10px, 0, 0);
-  transform: translate3d(-10px, 0, 0);
-  text-shadow: 1.5px 1.5px 1px black;
-}
-
-.hovereffect:hover img {
-  opacity: 0.6;
-  -webkit-filter: blur(0);
-  filter: blur(0);
-  -webkit-transition: 0.7s ease-in-out;
-  transition: 0.7s ease-in-out;
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}
-
-.hovereffect:hover .overlay2:before,
-.hovereffect:hover a,
-.hovereffect:hover p {
-  opacity: 1;
-  filter: alpha(opacity=100);
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}
-
 .background-portfolio {
   background-image: linear-gradient(-225deg, #fffeff 0%, #d7fffe 100%);
 }
-
-/* =================
-PROJECTS STYLE END
-================= */
 
 /* ==============
 TEXT HIGLIGHT HALF HEIGHT FOR BLACK TITTLE
 ============== */
 .highlightBlack {
   color: black;
+  font-size: 70px;
 }
 
 /* ==============
@@ -597,12 +487,10 @@ SEPARATOR DIVS STYLE
   right: 5%;
   width: 90%;
   height: 1px;
-  background-image: linear-gradient(
-    to right,
-    transparent,
-    rgb(48, 49, 51),
-    transparent
-  );
+  background-image: linear-gradient(to right,
+      transparent,
+      rgb(48, 49, 51),
+      transparent);
 }
 
 .div-dot:after {
@@ -791,29 +679,91 @@ body::-webkit-scrollbar-thumb {
 
 /* GRID CSS  EXPERIENCE.JS*/
 
-/* GRID CSS  PORTFOLIO.JS*/
-.grid-container-portfolio {
+.grid-portfolio {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   grid-gap: 40px;
-  padding: 100px;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  padding: 50px 120px;
 }
 
-.title-portfolio {
-  grid-column: 1/-1;
+.grid-portfolio img {
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+  max-width: 100%;
+  border-radius: 10px;
+
+}
+
+.grid-portfolio h2 {
+  position: absolute;
+  margin: 120px 0 0 50px;
+  font-size: 50px;
+  color: white;
+  text-shadow: 2px 2px black;
+  transition: 0.4s ease;
+
+}
+
+.grid-portfolio .text {
+  position: absolute;
+  margin: 300px 0 0 50px;
+  font-size: 50px;
+  color: white;
+  text-shadow: 2px 2px black;
+  transition: 0.4s ease;
+  transform: translateY(200%);
+  -webkit-transform: translateY(200%);
+  -moz-transform: translateY(200%);
+  opacity: 0;
+}
+
+.grid-portfolio .card:hover .text {
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  opacity: 1;
+}
+
+.grid-portfolio .card:hover h2 {
+  opacity: 0;
+  transform: translateY(-250%);
+  -webkit-transform: translateY(-250%);
+  -moz-transform: translateY(-250%);
+}
+
+.grid-portfolio .card {
+  border-radius: 10px;
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+  transition: 0.3s ease;
+}
+
+.grid-portfolio .card:hover {
+  filter: blur(0);
+  -webkit-filter: blur(0);
+  box-shadow: 6px 6px 10px 8px #07070773;
+  transform: translateY(-5%);
+  -webkit-transform: translateY(-5%);
+  -moz-transform: translateY(-5%);
 }
 
 @media (max-width: 1100px) {
-  .grid-container-portfolio {
-    padding: 35px;
+  .grid-portfolio {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    padding: 50px 30px;
   }
-}
 
-@media (max-width: 700px) {
-  .grid-container-portfolio {
-    grid-template-columns: auto;
-    padding: 30px;
+  .grid-portfolio h2 {
+    font-size: 35px !important;
+    margin: 80px 0 0 20px !important;
   }
-}
 
-/* GRID CSS  PORTFOLIO.JS*/
+  .grid-portfolio .text {
+    margin: 200px 0 0 50px;
+    font-size: 40px;
+
+  }
+
+}

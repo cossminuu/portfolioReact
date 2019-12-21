@@ -20,13 +20,47 @@ function Portfolio(props) {
   });
   return (
     <React.Fragment>
-      <section id="portfolio" className="background-portfolio">
-        <div className="grid-container-portfolio">
-          <h2 className="text-center title-portfolio">
-            <span className="highlightBlack">Projects</span>
-          </h2>
-          {cards}
-        </div>
+      <section id="portfolio" className="background-portfolio pt-5">
+        <h2 className="text-center title-portfolio">
+          <span className="highlightBlack">Projects</span>
+        </h2>
+        <main class="grid-portfolio">
+          <div className="card">
+            <h2>Hello World</h2>
+            <h1 className="text">Read More</h1>
+            <img src="https://picsum.photos/1200" alt="Sample photo" />
+          </div>
+
+          <div className="card">
+            <h2>Hello World</h2>
+            <h1 className="text">Read More</h1>
+            <img src="https://picsum.photos/800" alt="Sample photo" />
+          </div>
+
+          <div className="card">
+            <h2>Hello World</h2>
+            <h1 className="text">Read More</h1>
+            <img src="https://picsum.photos/1200" alt="Sample photo" />
+          </div>
+
+          <div className="card">
+            <h2>Hello World</h2>
+            <h1 className="text">Read More</h1>
+            <img src="https://picsum.photos/800" alt="Sample photo" />
+          </div>
+
+          <div className="card">
+            <h2>Hello World</h2>
+            <h1 className="text">Read More</h1>
+            <img src="https://picsum.photos/600" alt="Sample photo" />
+          </div>
+
+          <div className="card">
+            <h2>Hello World</h2>
+            <h1 className="text">Read More</h1>
+            <img src="https://picsum.photos/1200" alt="Sample photo" />
+          </div>
+        </main>
       </section>
     </React.Fragment>
   );

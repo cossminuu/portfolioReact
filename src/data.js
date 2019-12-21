@@ -1,6 +1,6 @@
 export default {
 
-
+    "image": "https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/basic-types-of-html-tags/cover.jpg",
     /////////////////////////////  NAVBAR /////////////////////////////
     toolbar: [{
             link: "Home",
