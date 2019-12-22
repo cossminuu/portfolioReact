@@ -49,6 +49,7 @@
 @media (max-width: 781px) {
     .side__drawer li {
         font-size: 20px;
+        padding-top: 45px;
     }
 
     .side__drawer.open {
