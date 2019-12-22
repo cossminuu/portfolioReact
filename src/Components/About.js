@@ -12,9 +12,9 @@ import figmalogo from "../img/figmalogo.png";
 import Fade from "react-reveal/Fade";
 
 function About() {
-  const skill = data.skills.map(skill => {
+  const skill = data.skills.map((skill, index) => {
     return (
-      <li>
+      <li key={index}>
         <span className="mr-2">{skill}</span>
       </li>
     );
@@ -37,7 +37,11 @@ function About() {
               <div className="about-tag">
                 <ul>{skill}</ul>
               </div>
-              <a className="btn">
+              <a
+                className="btn"
+                href="img/cv/Cosmin-Dumitriu.pdf"
+                download="Cosmin_cv"
+              >
                 Download CV<i className="fa fa-download"></i>
               </a>
             </Fade>

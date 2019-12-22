@@ -19,9 +19,10 @@ const modal = props => {
                 <p>{props.project.description}</p>
                 <div className="about-tag pt-2">
                   <ul>
-                    {props.project.usedSkills.map(skill => {
+                    <p>Technologies used:</p>
+                    {props.project.usedSkills.map((skill, index) => {
                       return (
-                        <li>
+                        <li key={index}>
                           <span>{skill}</span>
                         </li>
                       );
@@ -32,6 +33,7 @@ const modal = props => {
                   className="btn mb-4"
                   href={props.project.url}
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Open
                 </a>

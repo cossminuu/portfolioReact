@@ -7,14 +7,14 @@ function Header(props) {
     return (
       <li key={contact.text}>
         <i className={contact.class}> </i>
-        <a> {contact.text} </a>
+        <a href="# ">{contact.text} </a>
       </li>
     );
   });
 
   const social = data.socials.map(social => {
     return (
-      <a href="#fake" key={social}>
+      <a href="# " key={social}>
         <i className={social}> </i>
       </a>
     );

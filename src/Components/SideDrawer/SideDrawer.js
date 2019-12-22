@@ -14,9 +14,9 @@ const sideDrawer = props => {
         <p onClick={props.click}>x</p>
       </div>
       <ul>
-        {data.toolbar.map(toolbars => {
+        {data.toolbar.map((toolbars, index) => {
           return (
-            <li>
+            <li key={index}>
               <Link
                 to={toolbars.to}
                 spy={true}
@@ -33,10 +33,18 @@ const sideDrawer = props => {
           );
         })}
         <div className="social pt-5">
-          <a className="fa fa-facebook pr-4"></a>
-          <a className="fa fa-twitter pr-4"></a>
-          <a className="fa fa-github pr-4"></a>
-          <a className="fa fa-dribbble"></a>
+          <a href="# " className="fa fa-facebook pr-4">
+            {" "}
+          </a>
+          <a href="# " className="fa fa-twitter pr-4">
+            {" "}
+          </a>
+          <a href="# " className="fa fa-github pr-4">
+            {" "}
+          </a>
+          <a href="# " className="fa fa-dribbble">
+            {" "}
+          </a>
         </div>
       </ul>
     </nav>

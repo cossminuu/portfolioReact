@@ -5,8 +5,8 @@ import Slide from "react-reveal/Slide";
 function Experiences() {
   const education = data.education.map(educations => {
     return (
-      <Slide up>
-        <div key={educations.uniqueKey} className="education-item">
+      <Slide up key={educations.uniqueKey}>
+        <div className="education-item">
           <h4>
             {educations.specialization}
             <a href={educations.url}>{educations.universityName}</a>
@@ -20,8 +20,8 @@ function Experiences() {
 
   const work = data.work.map(works => {
     return (
-      <Slide up>
-        <div key={works.uniqueKey} className="work-item">
+      <Slide up key={works.uniqueKey}>
+        <div className="work-item">
           <h4>
             {works.specialization}
             <a href={works.url}>{works.universityName}</a>

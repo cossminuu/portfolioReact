@@ -5,11 +5,11 @@ import Zoom from "react-reveal/Zoom";
 function Portfolio(props) {
   const cards = data.portfolio.map((card, i) => {
     return (
-      <Zoom>
+      <Zoom key={card.projectName}>
         <div onClick={() => props.click(i)} className="card">
           <h2>{card.projectName}</h2>
           <h1 className="text">Read More</h1>
-          <img src={card.image} alt="Sample photo" />
+          <img src={card.image} alt="" />
         </div>
       </Zoom>
     );

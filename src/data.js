@@ -126,34 +126,38 @@ export default {
 
     ///////////////////////////// PORTFOLIO SECTION DETAILS ////////////////////////////
     portfolio: [{
-            projectName: "Tourist finder",
-            description: 'aaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaa',
-            image: "/img/project/adottaunturista.jpg",
-            usedSkills: ["php", "mysql", "html", "css"],
-            url: "http://www.moholepeople.it/adottaunturista/index.php"
+            projectName: "Portfolio React",
+            image: "/img/project/portfolio.jpg",
+            usedSkills: ["react", "node", "html", "css", "gridCss", "netlify"],
+            url: "https://dmtcs.netlify.com/"
+
+
         },
         {
             projectName: "WordPress theme",
-            description: 'aaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaa',
             image: "/img/project/fuorisalone.jpg",
             usedSkills: ["php", "mysql", "wordpress", "html", "css"],
             url: "https://www.moholepeople.it/fuorimohole/"
 
         },
         {
+            projectName: "Tourist finder",
+            image: "/img/project/adottaunturista.jpg",
+            usedSkills: ["php", "mysql", "html", "css"],
+            url: "http://www.moholepeople.it/adottaunturista/index.php"
+        },
+        {
             projectName: "ToDo-List React",
-            description: 'aaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaa',
             image: "/img/project/todolist.jpg",
             usedSkills: ["react", "node", "html", "css", "gridCss", "netlify"],
             url: "https://todolistcosmin.netlify.com/"
 
         },
         {
-            projectName: "Portfolio React",
-            description: 'aaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaa',
-            image: "/img/project/portfolioreact.jpg",
-            usedSkills: ["react", "node", "html", "css", "gridCss", "netlify"],
-            url: "https://dmtcs.netlify.com/"
+            projectName: "E-commerce template",
+            image: "/img/project/wineshop.jpg",
+            usedSkills: ["jQuery", "html", "css", "bootstrap"],
+            url: "https://wineshopc.netlify.com/"
 
 
         },
