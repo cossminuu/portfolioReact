@@ -74,7 +74,7 @@ class App extends Component {
         />
       );
     }
-    let styles = {
+    let stylePreloader = {
       display: "flex",
       height: "100vh",
       width: "100%",
@@ -86,7 +86,7 @@ class App extends Component {
       <>
         {!this.state.done ? (
           <Loader
-            style={styles}
+            style={stylePreloader}
             type="Triangle"
             color="#f1636c"
             height={200}
@@ -113,6 +113,18 @@ class App extends Component {
             <Experiences />
 
             <Portfolio click={this.modalToggleClick} />
+
+            <p
+              style={{
+                color: "#f1636c",
+                backgroundColor: "rgb(26, 25, 25)",
+                margin: "0",
+                textAlign: "center",
+                fontWeight: "bold"
+              }}
+            >
+              Cosmin Dumitriu {new Date().getFullYear()}
+            </p>
           </>
         )}
       </>

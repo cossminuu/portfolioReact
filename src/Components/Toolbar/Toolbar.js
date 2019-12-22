@@ -1,8 +1,6 @@
 import React from "react";
 import "./Toolbar.css";
 import DrawerToggleButton from "../SideDrawer/DrawerToggleButton";
-import { Link } from "react-scroll";
-import data from "../../data";
 
 const toolbar = props => {
   return (

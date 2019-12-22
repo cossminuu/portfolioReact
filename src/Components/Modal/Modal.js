@@ -28,7 +28,11 @@ const modal = props => {
                     })}
                   </ul>
                 </div>
-                <a className="btn btn-success mb-4" href={props.project.url}>
+                <a
+                  className="btn mb-4"
+                  href={props.project.url}
+                  target="_blank"
+                >
                   Open
                 </a>
               </div>

@@ -20,7 +20,7 @@ function Portfolio(props) {
         <h2 className="text-center title-portfolio">
           <span className="highlightBlack">Projects</span>
         </h2>
-        <main class="grid-portfolio">{cards}</main>
+        <main className="grid-portfolio">{cards}</main>
       </section>
     </React.Fragment>
   );

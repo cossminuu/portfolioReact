@@ -66,11 +66,7 @@
     }
 }
 
-/* @media(min-width: 781px) {
-    .toolbar__toggle__button {
-        display: none;
-    }
-} */
+
 
 .active {
     color: #f1636c !important;

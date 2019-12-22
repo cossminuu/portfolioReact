@@ -6,16 +6,21 @@
     left: 0;
     width: 100%;
     z-index: 222;
-    transform: translateX(-105%);
+    /* transform: translateX(-105%);
     -webkit-transform: translateX(-105%);
     -moz-transform: translateX(-105);
     transition: transform 0.6s ease-out;
     -webkit-transition: transform 0.6s ease-out;
-    -moz-transition: transform 0.6s ease-out;
+    -moz-transition: transform 0.6s ease-out; */
+    clip-path: circle(100px at -90% 20%);
+    -webkit-clip-path: circle(100px at -90% 20%);
+    transition: all 1.5s ease-out;
 }
 
 .side__drawer.open {
-    transform: translateX(0);
+    /* transform: translateX(0); */
+    clip-path: circle(200% at 90% -20%);
+    -webkit-clip-path: circle(200% at 90% -150%);
 }
 
 .side__drawer ul {
@@ -84,4 +89,8 @@
     color: #f1636c;
     font-weight: bold;
     text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+.no-scroll {
+    overflow-y: hidden !important;
 }
