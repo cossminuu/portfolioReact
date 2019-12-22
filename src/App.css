@@ -547,7 +547,7 @@ body::-webkit-scrollbar-thumb {
 
 /* GRID CSS HEADER.JS */
 .grid-container-header {
-  height: 100vh;
+  height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
