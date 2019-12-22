@@ -129,7 +129,8 @@ export default {
             projectName: "Portfolio React",
             image: "/img/project/portfolio.jpg",
             usedSkills: ["react", "node", "html", "css", "gridCss", "netlify"],
-            url: "https://dmtcs.netlify.com/"
+            url: "https://dmtcs.netlify.com/",
+            urlGit: "https://github.com/cossminuu/portfolioReact"
 
 
         },
@@ -150,14 +151,16 @@ export default {
             projectName: "ToDo-List React",
             image: "/img/project/todolist.jpg",
             usedSkills: ["react", "node", "html", "css", "gridCss", "netlify"],
-            url: "https://todolistcosmin.netlify.com/"
+            url: "https://todolistcosmin.netlify.com/",
+            urlGit: "https://github.com/cossminuu/todolistReact"
 
         },
         {
             projectName: "E-commerce template",
             image: "/img/project/wineshop.jpg",
             usedSkills: ["jQuery", "html", "css", "bootstrap"],
-            url: "https://wineshopc.netlify.com/"
+            url: "https://wineshopc.netlify.com/",
+            urlGit: "https://github.com/cossminuu/stunning-umbrella"
 
 
         },

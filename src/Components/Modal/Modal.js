@@ -30,12 +30,20 @@ const modal = props => {
                   </ul>
                 </div>
                 <a
-                  className="btn mb-4"
+                  className="btn btn-dark mb-4"
                   href={props.project.url}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   Open
+                </a>
+                <a
+                  className="btn btn-dark mb-4 ml-2"
+                  href={props.project.urlGit}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
                 </a>
               </div>
               <div className="col-md-7 ">
