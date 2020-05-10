@@ -134,6 +134,13 @@ export default {
 
 
         },
+                {
+      projectName: "Social Network React",
+      image: "/img/project/socialapp.png",
+      usedSkills: ["react", "node", "firebase", "express"],
+      url: "https://socialapp-72a75.web.app/",
+      urlGit: "https://github.com/cossminuu/SocialNetwork",
+    },
         {
             projectName: "WordPress theme",
             image: "/img/project/fuorisalone.jpg",
