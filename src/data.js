@@ -134,13 +134,20 @@ export default {
 
 
         },
-                {
-      projectName: "Social Network React",
-      image: "/img/project/socialapp.png",
-      usedSkills: ["react", "node", "firebase", "express"],
-      url: "https://socialapp-72a75.web.app/",
-      urlGit: "https://github.com/cossminuu/SocialNetwork",
-    },
+        {
+              projectName: "Social Network React",
+              image: "/img/project/socialapp.png",
+              usedSkills: ["react", "node", "firebase", "express"],
+              url: "https://socialapp-72a75.web.app/",
+              urlGit: "https://github.com/cossminuu/SocialNetwork",
+        },
+        {
+              projectName: "Covid-19 Map",
+              image: "/img/project/coronamap.png",
+              usedSkills: ["react", "firebase", "material-ui"],
+              url: "https://coronamap-901ec.web.app/",
+              urlGit: "https://github.com/cossminuu/Covid-19-Map",
+        },
         {
             projectName: "WordPress theme",
             image: "/img/project/fuorisalone.jpg",
