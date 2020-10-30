@@ -142,6 +142,15 @@ export default {
               urlGit: "https://github.com/cossminuu/SocialNetwork",
         },
         {
+            projectName: "FoodDelivery-PWA",
+            image: "/img/project/foodyourself.jpg",
+            usedSkills: ["react","node","express-js","material-ui","firebase","redux","react-router", "html", "css"],
+            url: "https://foodyourself-8fc58.web.app/",
+            urlGit: ""
+
+
+        },
+        {
               projectName: "Covid-19 Map",
               image: "/img/project/coronamap.png",
               usedSkills: ["react", "firebase", "material-ui"],
@@ -178,6 +187,7 @@ export default {
 
 
         },
+        
 
     ],
     ///////////////////////////// PORTFOLIO SECTION DETAILS ////////////////////////////
