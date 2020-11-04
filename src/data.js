@@ -142,13 +142,20 @@ export default {
               urlGit: "https://github.com/cossminuu/SocialNetwork",
         },
         {
-            projectName: "FoodDelivery-PWA",
+            projectName: "FoodDelivery-PWA React",
             image: "/img/project/foodyourself.jpg",
             usedSkills: ["react","node","express-js","material-ui","firebase","redux","react-router", "html", "css"],
             url: "https://foodyourself-8fc58.web.app/",
             urlGit: ""
 
 
+        },
+        {
+            projectName: "Netflix-Clone React",
+            image: "/img/project/netflix.jpg",
+            usedSkills: ["react","firebase","Netflix-API","styled-components","compound-components","react-router", "html", "css"],
+            url: "https://netflix-clone-53030.web.app/",
+            urlGit: "https://github.com/cossminuu/Netflix-Clone"
         },
         {
               projectName: "Covid-19 Map",
