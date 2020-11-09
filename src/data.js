@@ -55,7 +55,7 @@ export default {
 
 
     ///////////////////////////// ABOUT SECTION DETAILS /////////////////////////////
-    description: "Hi, my name is Cosmin. I was born in Romania but i moved in Italy 3 years ago. I have 25 years old and i'm studying web & apps development at Mohole School in Milan 2nd year. I'm very friendly, highly motivated, honest, respectful, sociable and love to learn new things. Ah, i love videogames and animals.",
+    description: "Hi, my name is Cosmin. I am a Jr. Frontend Developer. <br/> My primary focus is on building Front End Web Applications. My skillsets include languages like JavaScript, CSS3, HTML5, together with frameworks like React JS, Node JS, Bootstrap and Material-UI. I do this because i love the process of turning dreams into reality by converting ideas into code. I have spent the past two years learning top-notch technologies and enhancing my skill sets.I recently graduated from Mohole School(Milan) in Web & Apps Development with a rating of 28/30. On a side note, I love playing video games, ping-pong and learning new technologies every day.",
     skills: ["html",
         "css",
         "javascript",
