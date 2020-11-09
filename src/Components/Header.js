@@ -14,8 +14,8 @@ function Header(props) {
 
   const social = data.socials.map(social => {
     return (
-      <a href="# " key={social}>
-        <i className={social}> </i>
+      <a href={social.link} key={social.icon}>
+        <i className={social.icon}> </i>
       </a>
     );
   });
