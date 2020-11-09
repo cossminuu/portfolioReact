@@ -43,7 +43,7 @@ export default {
     socials: [
         "fa fa-facebook",
 
-        "fab fa-linkedin-in",
+        "fa fa-linkedin-in",
 
         "fa fa-github",
     ],
