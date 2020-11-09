@@ -58,9 +58,9 @@ export default {
     description: "Hi, my name is Cosmin. I was born in Romania but i moved in Italy 3 years ago. I have 25 years old and i'm studying web & apps development at Mohole School in Milan 2nd year. I'm very friendly, highly motivated, honest, respectful, sociable and love to learn new things. Ah, i love videogames and animals.",
     skills: ["html",
         "css",
-        "php",
         "javascript",
         "react",
+        "redux",    
         "wordpress",
         "php"
     ],
@@ -99,7 +99,16 @@ export default {
 
 
 
-    work: [{
+    work: [
+        {
+            uniqueKey: "3",
+            specialization: "Frontend Developer React(internship)-",
+            universityName: "Star InfoStudio s.r.l",
+            url: "",
+            years: "02/2020-08/2020",
+            responsability: ""
+        },
+        {
             uniqueKey: "1",
             specialization: "Coordinator on site/recruiter-",
             universityName: "Orbital Recruitment LTD/ London, Uk",
