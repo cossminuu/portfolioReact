@@ -43,11 +43,9 @@ export default {
     socials: [
         "fa fa-facebook",
 
-        "fa fa-twitter",
+        "fab fa-linkedin-in",
 
         "fa fa-github",
-
-        "fa fa-dribbble",
     ],
     ///////////////////////////// HEADER DETAILS /////////////////////////////
 
