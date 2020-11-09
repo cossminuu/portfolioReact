@@ -40,12 +40,18 @@ export default {
             "text": "Milan, Italy"
         },
     ],
-    socials: [
-        "fa fa-facebook",
-
-        "fa fa-linkedin",
-
-        "fa fa-github",
+    socials: [{
+        "icon": "fa fa-facebook",
+        "link": "https://www.facebook.com/dumitriu.cosmin.5/"
+        },
+        {
+        "icon": "fa fa-linkedin",
+        "link": "https://www.linkedin.com/in/cosmin-dumitriu-b984161ba/"
+        },
+        {
+        "icon": "fa fa-github",
+        "link": "https://github.com/cossminuu"
+        },
     ],
     ///////////////////////////// HEADER DETAILS /////////////////////////////
 
