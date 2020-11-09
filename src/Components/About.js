@@ -39,7 +39,7 @@ function About() {
               </div>
               <a
                 className="btn"
-                href="img/cv/Cosmin-Dumitriu.pdf"
+                href="img/Cosmin-Dumitriu.pdf"
                 download="Cosmin_cv"
               >
                 Download CV<i className="fa fa-download"></i>
