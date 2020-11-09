@@ -93,13 +93,13 @@ function About() {
                 <img src={reactlogo} alt="" />
                 <p>React</p>
               </div>
-              <div className="bar bar5 ">60%</div>
+              <div className="bar bar5 ">70%</div>
 
               <div className="name pb-2">
                 <img src={javascriptlogo} alt="" />
                 <p>Javascript</p>
               </div>
-              <div className="bar bar6">60%</div>
+              <div className="bar bar6">70%</div>
 
               <div className="name pb-2">
                 <img src={phplogo} alt="" />
