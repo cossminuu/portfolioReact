@@ -37,7 +37,7 @@ export default {
         },
         {
             "class": "fa fa-map-marker mr-2 mb-2",
-            "text": "Milan, Italy"
+            "text": "Northampton, UK"
         },
     ],
     socials: [{
