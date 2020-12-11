@@ -179,7 +179,7 @@ export default {
         },
          {
               projectName: "Music Player",
-              image: "/img/project/audiobeat.jpg",
+              image: "/img/project/audiobeat2.jpg",
               usedSkills: ["react", "html", "scss", "firebase"],
               url: "https://audiobeat-cb4d2.web.app/",
               urlGit: "https://github.com/cossminuu/MusicPlayer-AudioBeat",
