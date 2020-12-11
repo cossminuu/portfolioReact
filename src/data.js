@@ -177,6 +177,13 @@ export default {
             url: "https://netflix-clone-53030.web.app/",
             urlGit: "https://github.com/cossminuu/Netflix-Clone"
         },
+         {
+              projectName: "Music Player",
+              image: "/img/project/audiobeat.jpg",
+              usedSkills: ["react", "html", "scss", "firebase"],
+              url: "https://audiobeat-cb4d2.web.app/",
+              urlGit: "https://github.com/cossminuu/MusicPlayer-AudioBeat",
+        },
         {
               projectName: "Covid-19 Map",
               image: "/img/project/coronamap.png",
