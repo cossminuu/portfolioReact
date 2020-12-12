@@ -33,7 +33,7 @@ export default {
         },
         {
             "class": "fa fa-phone mr-2 mb-3",
-            "text": "+39 348 700 8668",
+            "text": "07984911713",
         },
         {
             "class": "fa fa-map-marker mr-2 mb-2",
