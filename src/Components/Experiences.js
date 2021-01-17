@@ -29,7 +29,7 @@ function Experiences() {
 
           <p className="year">{works.years}</p>
 
-          <span className="small">Responsability:</span>
+          
           <ul className="work-responsability">
             <li>
               <i className="fa fa-circle mr-2"></i>
