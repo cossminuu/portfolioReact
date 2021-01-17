@@ -117,7 +117,7 @@ export default {
             universityName: "Star InfoStudio s.r.l",
             url: "",
             years: "02/2020-08/2020",
-            responsability: ""
+            responsability: "Creating website layouts/user interfaces by using Html/Jsx/Css/Styled-Components; Code refactoring; Fixing bugs in existing projects; API tests-Postman; Mockups Design (Illustrator, Figma); Using the built-in React toolkit to build user-facing features; Creating front-end libraries and reusable code files for the company’s future products; Optimizing app components and improving the product’s performance; Collaborating with software developers and designers; Ensuring web design is optimized for smartphones."
         },
         {
             uniqueKey: "1",
