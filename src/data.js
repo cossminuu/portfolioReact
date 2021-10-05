@@ -204,23 +204,23 @@ export default {
             usedSkills: ["php", "mysql", "html", "css"],
             url: "http://www.moholepeople.it/adottaunturista/index.php"
         },
-        {
-            projectName: "ToDo-List React",
-            image: "/img/project/todolist.jpg",
-            usedSkills: ["react", "node", "html", "css", "gridCss", "netlify"],
-            url: "https://todolistcosmin.netlify.com/",
-            urlGit: "https://github.com/cossminuu/todolistReact"
+//         {
+//             projectName: "ToDo-List React",
+//             image: "/img/project/todolist.jpg",
+//             usedSkills: ["react", "node", "html", "css", "gridCss", "netlify"],
+//             url: "https://todolistcosmin.netlify.com/",
+//             urlGit: "https://github.com/cossminuu/todolistReact"
 
-        },
-        {
-            projectName: "E-commerce template",
-            image: "/img/project/wineshop.jpg",
-            usedSkills: ["jQuery", "html", "css", "bootstrap"],
-            url: "https://wineshopc.netlify.com/",
-            urlGit: "https://github.com/cossminuu/stunning-umbrella"
+//         },
+//         {
+//             projectName: "E-commerce template",
+//             image: "/img/project/wineshop.jpg",
+//             usedSkills: ["jQuery", "html", "css", "bootstrap"],
+//             url: "https://wineshopc.netlify.com/",
+//             urlGit: "https://github.com/cossminuu/stunning-umbrella"
 
 
-        },
+//         },
         
 
     ],
